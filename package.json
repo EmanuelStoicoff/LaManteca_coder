@@ -1,0 +1,11 @@
+{
+  "name": "la-manteca-bs",
+  "version": "1.0.0",
+  "description": ".bg-principal{background-color: #d87524;}\r .bg-imgMain{\r     background-image: url(../img/fondoMain2.png);\r }\r .infoHistoria{border: double black;}\r a{text-decoration: none;}",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
