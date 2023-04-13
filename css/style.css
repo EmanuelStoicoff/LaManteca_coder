@@ -2,19 +2,21 @@ a {
   text-decoration: none;
 }
 
-header .bg-principal {
+.bg-principal {
   background-color: #d87524;
 }
 
-main .bg-imgMain {
-  background-image: url(../img/fondoMain2.png);
+header {
+  margin: 0 !important;
+  width: 100% !important;
 }
+
 main div .infoHistoria {
   border: double black;
 }
 
-footer .bg-principal {
-  background-color: #d87524;
+.bg-imgMain {
+  background-image: url(../img/fondoMain2.png);
 }
 
 /*# sourceMappingURL=style.css.map */

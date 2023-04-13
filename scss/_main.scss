@@ -1,10 +1,10 @@
 main{
-    .bg-imgMain{
-        background-image: url(../img/fondoMain2.png);
-    }
     div{
         .infoHistoria{border: double $black;
 
         }
     }
+}
+.bg-imgMain{
+    background-image: url(../img/fondoMain2.png);
 }
