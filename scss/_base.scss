@@ -2,3 +2,7 @@ a{text-decoration: none;}
 .bg-principal{
     background-color: $bg-principal;
 }
+header,footer{
+    margin: $cero !important;
+    width: $cien !important;
+}
