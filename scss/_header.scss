@@ -2,3 +2,17 @@ header{
     margin: $cero !important;
     width: $cien !important;
 }
+
+body{
+    nav{
+        .btn2{
+            color: black;
+            border-color: black;
+            &:hover{
+                color: black;
+                border-color: black;
+                background-color: rgb(100, 100, 100);
+            }
+        }
+    }
+}
