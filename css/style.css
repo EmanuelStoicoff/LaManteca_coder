@@ -1,17 +1,20 @@
-.bg-principal {
+a {
+  text-decoration: none;
+}
+
+header .bg-principal {
   background-color: #d87524;
 }
 
-.bg-imgMain {
+main .bg-imgMain {
   background-image: url(../img/fondoMain2.png);
 }
-
-.infoHistoria {
+main div .infoHistoria {
   border: double black;
 }
 
-a {
-  text-decoration: none;
+footer .bg-principal {
+  background-color: #d87524;
 }
 
 /*# sourceMappingURL=style.css.map */
