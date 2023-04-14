@@ -4,6 +4,12 @@ main{
             border: double $black;
         }
     }
+    .img-pedidosYa{
+        transition: all .5s;
+        &:hover{
+            width: 85px; height:auto ;
+        }
+    }
 }
 .bg-imgMain{
     background-image: url(../img/fondoMain2.png);

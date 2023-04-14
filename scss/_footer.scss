@@ -1,3 +1,26 @@
-// footer{
-//     background-image: linear-gradient(to right ,$bg-principal,$bg-principal,#6b4627);
-// }
+footer{
+    .img-facebook{
+        transition:all .5s;
+        &:hover{
+            width: 60px; height: 60px;
+        }
+    }
+    .img-instagram{
+        transition:all .5s;
+        &:hover{
+            width: 60px; height: 60px;
+        }
+    }
+    .img-twitter{
+        transition:all .5s;
+        &:hover{
+            width: 60px; height: 60px;
+        }
+    }
+    .img-youtube{
+        transition:all .5s;
+        &:hover{
+            width: 60px; height: 60px;
+        }
+    }
+}

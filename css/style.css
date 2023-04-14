@@ -13,11 +13,32 @@ footer {
 
 body {
   font-family: "Tahoma" !important;
+  color: black;
 }
 
+nav form {
+  transform: translate(290px, -40px);
+}
+nav .img-user {
+  transform: translate(-10px, 40px);
+  transition: all 0.5s;
+}
+nav .img-user:hover {
+  width: 50px;
+  height: 50px;
+}
+nav .img-carrito {
+  transform: translate(-10px, 40px);
+  transition: all 0.5s;
+}
+nav .img-carrito:hover {
+  width: 50px;
+  height: 50px;
+}
 nav .btn2 {
   color: black;
   border-color: black;
+  transition: all 0.5s;
 }
 nav .btn2:hover {
   color: black;
@@ -28,9 +49,45 @@ nav .btn2:hover {
 main div .infoHistoria {
   border: double black;
 }
+main .img-pedidosYa {
+  transition: all 0.5s;
+}
+main .img-pedidosYa:hover {
+  width: 85px;
+  height: auto;
+}
 
 .bg-imgMain {
   background-image: url(../img/fondoMain2.png);
+}
+
+footer .img-facebook {
+  transition: all 0.5s;
+}
+footer .img-facebook:hover {
+  width: 60px;
+  height: 60px;
+}
+footer .img-instagram {
+  transition: all 0.5s;
+}
+footer .img-instagram:hover {
+  width: 60px;
+  height: 60px;
+}
+footer .img-twitter {
+  transition: all 0.5s;
+}
+footer .img-twitter:hover {
+  width: 60px;
+  height: 60px;
+}
+footer .img-youtube {
+  transition: all 0.5s;
+}
+footer .img-youtube:hover {
+  width: 60px;
+  height: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */
