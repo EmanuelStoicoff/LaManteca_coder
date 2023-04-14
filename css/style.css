@@ -16,25 +16,6 @@ body {
   color: black;
 }
 
-nav form {
-  transform: translate(290px, -40px);
-}
-nav .img-user {
-  transform: translate(-10px, 40px);
-  transition: all 0.5s;
-}
-nav .img-user:hover {
-  width: 50px;
-  height: 50px;
-}
-nav .img-carrito {
-  transform: translate(-10px, 40px);
-  transition: all 0.5s;
-}
-nav .img-carrito:hover {
-  width: 50px;
-  height: 50px;
-}
 nav .btn2 {
   color: black;
   border-color: black;
@@ -46,6 +27,27 @@ nav .btn2:hover {
   background-color: rgb(100, 100, 100);
 }
 
+@media only screen and (min-width: 1023px) {
+  form {
+    transform: translate(290px, -40px);
+  }
+  .img-user {
+    transform: translate(-10px, 40px);
+    transition: all 0.5s;
+  }
+  .img-user:hover {
+    width: 50px;
+    height: 50px;
+  }
+  .img-carrito {
+    transform: translate(-10px, 40px);
+    transition: all 0.5s;
+  }
+  .img-carrito:hover {
+    width: 50px;
+    height: 50px;
+  }
+}
 main div .infoHistoria {
   border: double black;
 }

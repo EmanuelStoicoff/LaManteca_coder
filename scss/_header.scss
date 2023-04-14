@@ -1,4 +1,16 @@
 nav{
+    .btn2{
+        color: black;
+        border-color: black;
+        transition: all .5s;
+        &:hover{
+            color: black;
+            border-color: black;
+            background-color: rgb(100, 100, 100);
+        }
+    }
+}
+@media only screen and (min-width:1023px){
     form{
         transform: translate(290px,-40px);
     }
@@ -16,16 +28,7 @@ nav{
             width: 50px; height: 50px;
         }
     }
-    .btn2{
-        color: black;
-        border-color: black;
-        transition: all .5s;
-        &:hover{
-            color: black;
-            border-color: black;
-            background-color: rgb(100, 100, 100);
-        }
-    }
 }
+    
 
 
