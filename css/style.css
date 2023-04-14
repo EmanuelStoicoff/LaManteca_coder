@@ -6,16 +6,20 @@ a {
   background-color: #d87524;
 }
 
-header, footer {
+footer {
   margin: 0 !important;
   width: 100% !important;
 }
 
-body nav .btn2 {
+body {
+  font-family: "Tahoma" !important;
+}
+
+nav .btn2 {
   color: black;
   border-color: black;
 }
-body nav .btn2:hover {
+nav .btn2:hover {
   color: black;
   border-color: black;
   background-color: rgb(100, 100, 100);

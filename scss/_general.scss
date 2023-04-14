@@ -2,7 +2,10 @@ a{text-decoration: none;}
 .bg-principal{
     background-color: $bg-principal;
 }
-header,footer{
+footer{
     margin: $cero !important;
     width: $cien !important;
+}
+body{
+    font-family: 'Tahoma' !important;
 }
