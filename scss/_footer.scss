@@ -1,26 +1,26 @@
 footer{
     .img-facebook{
-        transition:all .5s;
+        transition:all $sec-5;
         &:hover{
-            width: 60px; height: 60px;
+            width: $px-6; height: $px-6;
         }
     }
     .img-instagram{
-        transition:all .5s;
+        transition:all $sec-5;
         &:hover{
-            width: 60px; height: 60px;
+            width: $px-6; height: $px-6;
         }
     }
     .img-twitter{
-        transition:all .5s;
+        transition:all $sec-5;
         &:hover{
-            width: 60px; height: 60px;
+            width: $px-6; height: $px-6;
         }
     }
     .img-youtube{
-        transition:all .5s;
+        transition:all $sec-5;
         &:hover{
-            width: 60px; height: 60px;
+            width: $px-6; height: $px-6;
         }
     }
 }
