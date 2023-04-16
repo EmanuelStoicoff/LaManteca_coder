@@ -57,7 +57,7 @@ main div .infoHistoria {
 }
 
 @media only screen and (min-width: 1023px) {
-  .form {
+  .formContacto {
     width: 30%;
     transform: translate(460px, -3px);
   }
