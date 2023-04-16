@@ -56,6 +56,12 @@ main div .infoHistoria {
   background-image: url(../img/fondoMain2.png);
 }
 
+@media only screen and (min-width: 1023px) {
+  .form {
+    width: 30%;
+    transform: translate(460px, -3px);
+  }
+}
 footer .img-facebook {
   transition: all 0.5s;
 }
