@@ -91,31 +91,6 @@ footer .img-youtube:hover {
   height: 60px;
 }
 
-@keyframes ltrb {
-  0% {
-    transform: translate(-30px, 0);
-  }
-  25% {
-    transform: translate(0, -20px);
-  }
-  50% {
-    transform: translate(30px, 0);
-  }
-  75% {
-    transform: translate(0, 20px);
-  }
-  100% {
-    transform: translate(-30px, 0);
-  }
-}
-h1 {
-  animation-name: ltrb;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-duration: 5s;
-  animation-delay: 2s;
-}
-
 @keyframes zoom {
   0% {
     transform: scale(0.7, 0.7);
