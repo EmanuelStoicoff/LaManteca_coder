@@ -6,6 +6,22 @@ a {
   background-color: #d87524;
 }
 
+.mt-2 {
+  margin-top: 20px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.ml-2 {
+  margin-left: 20px;
+}
+
+.mr-2 {
+  margin-right: 20px;
+}
+
 footer {
   margin: 0 !important;
   width: 100% !important;
@@ -26,6 +42,10 @@ nav .btn2:hover {
   border-color: black;
   background-color: rgb(100, 100, 100);
 }
+nav ul li:hover {
+  background-color: #a0561a;
+  border-radius: 10px;
+}
 
 @media only screen and (min-width: 1023px) {
   form {
@@ -33,19 +53,19 @@ nav .btn2:hover {
   }
   .img-user {
     transform: translate(-10px, 40px);
-    transition: all 0.5s;
   }
   .img-user:hover {
-    width: 60px;
-    height: 60px;
+    background-color: #a0561a;
+    border-radius: 5px;
+    transition: all 0.5s;
   }
   .img-carrito {
     transform: translate(-10px, 40px);
-    transition: all 0.5s;
   }
   .img-carrito:hover {
-    width: 60px;
-    height: 60px;
+    background-color: #a0561a;
+    border-radius: 5px;
+    transition: all 0.5s;
   }
 }
 main div .infoHistoria {
@@ -53,7 +73,7 @@ main div .infoHistoria {
 }
 
 .bg-imgMain {
-  background-image: url(../img/fondoMain2.png);
+  background-image: url(../img/fondoMain.jpg);
 }
 
 @media only screen and (min-width: 1023px) {
