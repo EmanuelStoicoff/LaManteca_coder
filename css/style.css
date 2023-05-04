@@ -82,6 +82,19 @@ main h3:hover {
   transition: all 0.3s;
   border-radius: 1rem;
 }
+main a {
+  color: rgb(209, 117, 4);
+}
+main a:hover {
+  border-bottom: solid rgb(73, 72, 72);
+  border-top: solid rgb(73, 72, 72);
+  transition: all 0.1s;
+}
+@media only screen and (max-width: 768px) {
+  main .gifFlecha {
+    display: none;
+  }
+}
 
 .bg-imgMain {
   background-image: url(../img/fondoMain.jpg);
@@ -90,7 +103,6 @@ main h3:hover {
 @media only screen and (min-width: 1023px) {
   .formContacto {
     width: 30%;
-    transform: translate(460px, -3px);
   }
 }
 footer .img-facebook {

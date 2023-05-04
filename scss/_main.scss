@@ -13,13 +13,24 @@ main{
             border-radius: 1rem;
         }
     }
+    a{
+        color: rgb(209, 117, 4);
+        &:hover{
+        border-bottom: solid rgb(73, 72, 72);
+        border-top: solid rgb(73, 72, 72);
+        transition: all .1s;
+        }
+    }
+    @media only screen and (max-width: 768px){
+        .gifFlecha{
+            display: none;
+        }
+    }
 }
 .bg-imgMain{
     background-image: url(../img/fondoMain.jpg);
 }
 @media only screen and (min-width:1023px){
     .formContacto{
-        width: 30%;
-     transform: translate(460px,-3px);
-    }
+        width: 30%;    }
 }
