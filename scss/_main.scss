@@ -4,6 +4,15 @@ main{
             border: double $black;
         }
     }
+    img{border-radius: .5rem;}
+    h3{
+        color: rgb(30, 33, 37);
+        &:hover{
+            background-color: rgb(252, 174, 57);
+            transition: all .3s;
+            border-radius: 1rem;
+        }
+    }
 }
 .bg-imgMain{
     background-image: url(../img/fondoMain.jpg);

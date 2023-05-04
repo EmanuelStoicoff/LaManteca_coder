@@ -71,6 +71,17 @@ nav ul li:hover {
 main div .infoHistoria {
   border: double black;
 }
+main img {
+  border-radius: 0.5rem;
+}
+main h3 {
+  color: rgb(30, 33, 37);
+}
+main h3:hover {
+  background-color: rgb(252, 174, 57);
+  transition: all 0.3s;
+  border-radius: 1rem;
+}
 
 .bg-imgMain {
   background-image: url(../img/fondoMain.jpg);
